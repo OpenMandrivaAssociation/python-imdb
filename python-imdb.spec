@@ -14,6 +14,7 @@ Group:		Development/Python
 Source:		http://downloads.sourceforge.net/imdbpy/%{oname}-%{version}.tar.gz
 URL:		http://imdbpy.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-root
+BuildRequires:	python
 # not noarch, contains a shared object file
 
 %description
