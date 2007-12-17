@@ -13,7 +13,6 @@ License:	GPLv2+
 Group:		Development/Python
 Source:		http://downloads.sourceforge.net/imdbpy/%{oname}-%{version}.tar.gz
 URL:		http://imdbpy.sourceforge.net/
-BuildRoot:	%{tmpdir}/%{name}-root
 BuildRequires:	python-devel
 # not noarch, contains a shared object file
 
