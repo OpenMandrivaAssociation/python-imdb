@@ -1,8 +1,7 @@
-
 %define module	imdb
 %define name	python-%{module}
 %define oname	IMDbPY
-%define version	3.2
+%define version	3.8
 %define rel	1
 
 Summary:	Python module for the IMDb movie database
@@ -13,9 +12,8 @@ License:	GPLv2+
 Group:		Development/Python
 Source:		http://downloads.sourceforge.net/imdbpy/%{oname}-%{version}.tar.gz
 URL:		http://imdbpy.sourceforge.net/
-BuildRoot:	%{tmpdir}/%{name}-root
 BuildRequires:	python-devel
-# not noarch, contains a shared object file
+BuildRoot:	%{tmpdir}/%{name}-%{version}
 
 %description
 IMDbPY is a Python package useful to retrieve and manage the data of
@@ -44,5 +42,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc docs/*
 %{_bindir}/*.py
-%{py_platsitedir}/*.egg-info
-%{py_platsitedir}/%{module}
+%{python_sitelib}/*.egg-info
+%{python_sitelib}/%{module}
