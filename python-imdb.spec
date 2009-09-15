@@ -2,7 +2,7 @@
 %define name	python-%{module}
 %define oname	IMDbPY
 %define version	3.9
-%define rel	1
+%define rel	2
 
 Summary:	Python module for the IMDb movie database
 Name:		%{name}
