@@ -42,5 +42,4 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc docs/*
 %{_bindir}/*.py
-%{python_sitelib}/*.egg-info
-%{python_sitelib}/%{module}
+%{py_platsitedir}/*
