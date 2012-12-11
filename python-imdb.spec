@@ -43,3 +43,33 @@ rm -rf %{buildroot}
 %doc docs/*
 %{_bindir}/*.py
 %{py_platsitedir}/*
+
+
+%changelog
+* Tue Nov 09 2010 Funda Wang <fwang@mandriva.org> 3.9-3mdv2011.0
++ Revision: 595177
+- update file list
+
+  + Michael Scherer <misc@mandriva.org>
+    - rebuild for python 2.7
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+  + Emmanuel Andry <eandry@mandriva.org>
+    - New version 3.9
+
+  + Guillaume Rousse <guillomovitch@mandriva.org>
+    - new version
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 3.2-1mdv2009.0
++ Revision: 136450
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Oct 30 2007 Anssi Hannula <anssi@mandriva.org> 3.2-1mdv2008.1
++ Revision: 103887
+- initial Mandriva release
+
