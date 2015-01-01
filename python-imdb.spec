@@ -36,5 +36,7 @@ mv %{buildroot}/usr/etc %{buildroot}/%{py_puresitedir}/imdb/
 
 %files
 %{_bindir}/*.py
+%ifarch x86_64
 %{py_puresitedir}/imdb/
+%endif
 %{py_platsitedir}/*
