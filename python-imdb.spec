@@ -10,6 +10,7 @@ Group:		Development/Python
 Source:		https://sourceforge.net/projects/imdbpy/files/IMDbPY/4.9/IMDbPY-%{version}.tar.gz
 URL:		http://imdbpy.sourceforge.net/
 BuildRequires:	python-devel
+BuildRequires:	python-setuptools
 
 %description
 IMDbPY is a Python package useful to retrieve and manage the data of
