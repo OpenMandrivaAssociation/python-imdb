@@ -4,7 +4,7 @@
 Summary:	Python module for the IMDb movie database
 Name:		python-%{module}
 Version:	4.9
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Development/Python
 Source:		https://sourceforge.net/projects/imdbpy/files/IMDbPY/4.9/IMDbPY-%{version}.tar.gz
