@@ -8,7 +8,7 @@ Release:	2
 License:	GPLv2+
 Group:		Development/Python
 Source:		https://sourceforge.net/projects/imdbpy/files/IMDbPY/4.9/IMDbPY-%{version}.tar.gz
-URL:		http://imdbpy.sourceforge.net/
+URL:		https://imdbpy.sourceforge.net/
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
 
